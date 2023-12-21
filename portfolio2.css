@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: poppins;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(171, 219, 238);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.header{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.main_content{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold
+}
